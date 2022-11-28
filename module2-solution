@@ -1,1 +1,2 @@
-
+git rm module2-solution.txt
+git commit -m "module2-solution.txt"
