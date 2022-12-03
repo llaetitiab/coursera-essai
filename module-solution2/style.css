@@ -40,7 +40,7 @@ h1 {
   margin-right: 36px;
   margin-top: 0px;
   font-weight: bold;
-  position: relative;
+  position: absolute;
 }
 
 .content{
