@@ -30,6 +30,11 @@ float: left
 
 }
 
+#content {
+padding: 10px;
+
+}
+
 h1 {
   font-size: 4,6em;
 }
@@ -54,24 +59,27 @@ h1 {
     background-color: rgba(189, 195, 199,.3);
   padding: 0px;
   align-content: space-between;
-      justify-content: right
-
-
+      justify-content: right;
+      position: relative;
+      left: 5%;
       
       
-
 
 }
   .container2 {
   display: inline-flex;
   flex-wrap: wrap;
+
   gap: 10px;
   width: 333px;
   border: 2px solid rgb(23,32,42);
     background-color: rgba(189, 195, 199,.3);
   padding: 0px;
   align-content: space-between;
-            justify-content: right
+            justify-content: right;
+     position: relative;
+     left: 7.5%;             
+ 
 
 
 
@@ -79,14 +87,17 @@ h1 {
   .container3 {
   display: inline-flex;
   flex-wrap: wrap;
+
   gap: 10px;
   width: 333px;
   border: 2px solid rgb(23,32,42);
     background-color: rgba(189, 195, 199,.3);
   padding: 0px;
     align-content: space-between;
-          justify-content: right
-
+          justify-content: right;
+position: relative;
+      left: 10%;
+      top: 0px
 
 
 }
@@ -135,19 +146,20 @@ text-align: center;
 
 <div class="container1">
   <div class="item1">Chicken</div>
- <content> Lorem ipsum dolor sit amet. Aut autem explicabo ex minima animi aut magnam consequatur non voluptates 
-  quis ea unde veniam quo voluptates quidem qui doloribus doloribus. Ut enim possimus non placeat iusto   </content>
+ <div id="content"> Lorem ipsum dolor sit amet. Aut autem explicabo ex minima animi aut magnam consequatur non voluptates 
+  quis ea unde veniam quo voluptates quidem qui doloribus doloribus. Ut enim possimus non placeat iusto   </div>
   </div>
+  
   <div class="container2">
       <div class="item2"><font color="white">Beef</font></div>
- <content>Lorem ipsum dolor sit amet. Aut autem explicabo ex minima animi aut magnam consequatur non voluptates 
-  quis ea unde veniam quo voluptates quidem qui doloribus doloribus. Ut enim possimus non placeat iusto </content>
-  </div>
+ <div id="content">Lorem ipsum dolor sit amet. Aut autem explicabo ex minima animi aut magnam consequatur non voluptates 
+  quis ea unde veniam quo voluptates quidem qui doloribus doloribus. Ut enim possimus non placeat iusto </div>
+  </div> 
   
    <div class="container3">
       <div class="item3">Sushi</div>
-  <content>Lorem ipsum dolor sit amet. Aut autem explicabo ex minima animi aut magnam consequatur non voluptates 
-  quis ea unde veniam quo voluptates quidem qui doloribus doloribus. Ut enim possimus non placeat iusto </content>
-  </div>
+  <div id="content">Lorem ipsum dolor sit amet. Aut autem explicabo ex minima animi aut magnam consequatur non voluptates 
+  quis ea unde veniam quo voluptates quidem qui doloribus doloribus. Ut enim possimus non placeat iusto </div>
+  </div> 
 </body>
 </html>
