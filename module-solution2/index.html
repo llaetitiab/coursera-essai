@@ -1,165 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>our menu</title>
-<meta charset="utf-8">
+
+<title>Responsive Layout</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-</head> 
-<body>
+<link rel="stylesheet" type="text/css" href="style.css">
 
-</body>
-
-<style>
-
-/********** Base styles **********/
- * {
-  box-sizing: border-box;
-}
-
-body {
-  font: Helvetica Neue, Helvetica, Arial, sans-serif;
-  
-}
-p {
-  width: 30px;
-border:2px solid rgb(23,32,42);
-display: inline-block;
-padding: 10px;
-float: left
-
-
-}
-
-#content {
-padding: 10px;
-
-}
-
-h1 {
-  font-size: 4,6em;
-}
-div class="item1" {
-font-size: 1,5em;
-}
-
- 
-h1 {
-  margin-bottom: 55px;
-  
-}
-
-  .container1 {
-  display: inline-flex;
-  flex-wrap: wrap;
-    justify-container: space-between;
-
-  gap: 10px;
-  width: 333px;
-  border: 2px solid rgb(23,32,42);
-    background-color: rgba(189, 195, 199,.3);
-  padding: 0px;
-  align-content: space-between;
-      justify-content: right;
-      position: relative;
-      left: 5%;
-      
-      
-
-}
-  .container2 {
-  display: inline-flex;
-  flex-wrap: wrap;
-
-  gap: 10px;
-  width: 333px;
-  border: 2px solid rgb(23,32,42);
-    background-color: rgba(189, 195, 199,.3);
-  padding: 0px;
-  align-content: space-between;
-            justify-content: right;
-     position: relative;
-     left: 7.5%;             
- 
-
-
-
-    }
-  .container3 {
-  display: inline-flex;
-  flex-wrap: wrap;
-
-  gap: 10px;
-  width: 333px;
-  border: 2px solid rgb(23,32,42);
-    background-color: rgba(189, 195, 199,.3);
-  padding: 0px;
-    align-content: space-between;
-          justify-content: right;
-position: relative;
-      left: 10%;
-      top: 0px
-
-
-}
-  .item1 {
-  width: 120px;
-  padding: 5px;
-  border: 1px solid rgb(23,32,42);
-  display: inline-block;
-        background-color: rgba(247, 220, 111,.3);
-text-align: center;
-  vertical-align: middle 
-  
-}
-
-    .item2 {
-  width: 120px;
-  padding: 5px;
-  border: 1px solid rgb(23,32,42);
-  display: inline-block;
-        background-color: rgba(215, 189, 226,.3);
-text-align: center;
-
-  vertical-align: middle 
-}
-
-    .item3 {
-  width: 120px;
-  padding: 5px;
-  border: 1px solid rgb(23,32,42);
-  display: inline-block;
-        background-color: rgba(128,128,0,.3);
-text-align: center;
-
-  vertical-align: middle 
-}
-  
-/* Simple Responsive Framework. */
-.row {
-  width: 100%;
-}
-
-</style>
 </head>
 <body>
-<h1><center>Our menu</center></h1>
+<h1>Our Menu</h1>
 
-<div class="container1">
-  <div class="item1">Chicken</div>
- <div id="content"> Lorem ipsum dolor sit amet. Aut autem explicabo ex minima animi aut magnam consequatur non voluptates 
-  quis ea unde veniam quo voluptates quidem qui doloribus doloribus. Ut enim possimus non placeat iusto   </div>
+
+
+  <div class="col-lg-4 col-md-6 col-sm-12">
+  	<div class="box">
+  		<p class="content-name name1">Chicken</p>
+  		<p class="content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+  	</div>
   </div>
-  
-  <div class="container2">
-      <div class="item2"><font color="white">Beef</font></div>
- <div id="content">Lorem ipsum dolor sit amet. Aut autem explicabo ex minima animi aut magnam consequatur non voluptates 
-  quis ea unde veniam quo voluptates quidem qui doloribus doloribus. Ut enim possimus non placeat iusto </div>
-  </div> 
-  
-   <div class="container3">
-      <div class="item3">Sushi</div>
-  <div id="content">Lorem ipsum dolor sit amet. Aut autem explicabo ex minima animi aut magnam consequatur non voluptates 
-  quis ea unde veniam quo voluptates quidem qui doloribus doloribus. Ut enim possimus non placeat iusto </div>
-  </div> 
+
+  <div class="col-lg-4 col-md-6 col-sm-12">
+  	<div class="box">
+   		<p class="content-name name2">Beef</p>
+   		<p class="content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+  	</div>
+  </div>
+
+  <div class="col-lg-4 col-md-12 col-sm-12">
+  	<div class="box">
+  		<p class="content-name name3">Sushi</p>
+  		<p class="content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+  	</div>	
+  </div>
+
 </body>
 </html>
